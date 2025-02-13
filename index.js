@@ -44,11 +44,11 @@ function toggleDogRain() {
   if (isRaining) {
     clearInterval(intervalId); // Stop creating dogs
     isRaining = false;
-    document.getElementById('toggleButton').textContent = 'Kobasica';
+    document.getElementById('toggleButton').textContent = 'KOBASICE';
   } else {
     intervalId = setInterval(createFallingDog, 500); // Create a dog every 500ms
     isRaining = true;
-    document.getElementById('toggleButton').textContent = 'START KOBASICA';
+    document.getElementById('toggleButton').textContent = 'STOP';
   }
 }
 
